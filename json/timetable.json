@@ -1,0 +1,15 @@
+
+[
+    {
+        "Class": "CS 1014",
+        "Name": "Intro to Coding in Python",
+        "Periods": [
+            {
+                "CRN": 12345,
+                "Days": "MWF",
+                "Start": "10:10 AM",
+                "End": "11:00 AM"
+            }
+        ]
+    }
+]

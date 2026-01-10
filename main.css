@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+table {
+    margin: 10px auto;
+    border: 1px solid;
+    width:900px;
+    vertical-align: top;
+}
+.classDetails {
+    margin: auto;
+    td {
+        text-align: center;
+    }
+}
+.times {
+    text-align: center;
+    width: 50px;
+}
+#navigate-schedules {
+    th {
+        color: blue;
+    }
+}
+.classesBreaks {
+    tr {
+        td {
+            text-align: center;
+        }
+        table {
+            align:top;
+            width: 425px;
+            tr {
+                margin: auto;
+                color: red;
+            }
+            td {
+                button {
+                    float: right;
+                }
+            }
+        }
+    }
+}
