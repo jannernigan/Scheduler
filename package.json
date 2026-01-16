@@ -1,0 +1,24 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "Scheduler for classes that calculates every possible schedule given a list of classes and their time periods. Just a little project I wanted to try for my future schedules (｡· v ·｡)",
+  "homepage": "https://github.com/jannernigan/Scheduler#readme",
+  "bugs": {
+    "url": "https://github.com/jannernigan/Scheduler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jannernigan/Scheduler.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^39.2.7"
+  }
+}
