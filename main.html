@@ -1,12 +1,31 @@
 <html>
-    <title>Hokie Scheduler</title>
+    <title>Course Scheduler</title>
     <head>
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <h1>Scheduler</h1>
         <h2>Classes</h2>
-        <button class="button1">More Classes...</button>
+        <p>Course Number: <input></input> <input type="number"></input></p>
+        <p>Course ID: <input type="number"></input></p>
+        <p>Time Start: <input type="time"></input></p>
+        <p>Time End: <input type="time"></input></p>
+        <input type="submit" value="Save Class"></input>
+        <p><button class="button1">View Classes</button></p>
+        <table>Classes:
+            <tr>
+                <th>Course Number</th>
+                <th>Course ID</th>
+                <th>Time Start</th>
+                <th>Time End</th>
+            </tr>
+            <tr>
+                <td>EXMP 9999</td>
+                <td>12345</td>
+                <td>10:10 AM</td>
+                <td>11:00 AM</td>
+            </tr>
+        </table>
         <script>
             require('./renderer.js')
         </script>
